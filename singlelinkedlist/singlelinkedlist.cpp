@@ -70,6 +70,16 @@ bool deleteNode(int nim) {
 	if (searchNode(nim, previous, current) == false)
 		return false;
 	previous->next = current->next;
-	if(current==)
+	if (current == START)
+		START = current->next;
+	return true;
+
 }
 
+bool listEmpty() {
+	if (listEmpty()) {
+		cout << "List Kosong" << endl;
+		system("pause");
+		system("cls")
+	}
+}
