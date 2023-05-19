@@ -69,14 +69,10 @@ bool searchNode(int nim, Node* current, Node* previous) {
 	else
 	{
 		return false
-	
 
-
-
-
+	}
 
 }
-
 
 
 bool deleteNode(int nim) {
