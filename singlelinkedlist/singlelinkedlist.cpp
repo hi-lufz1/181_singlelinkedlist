@@ -68,7 +68,7 @@ bool searchNode(int nim, Node* current, Node* previous) {
 	}
 	else
 	{
-		return false
+		return false;
 
 	}
 
@@ -88,10 +88,8 @@ bool deleteNode(int nim) {
 }
 
 bool listEmpty() {
-	if (listEmpty()) {
-		cout << "List Kosong" << endl;
-		system("pause");
-		system("cls")
-			return;
-	}
+	if (START == NULL)
+		return true;
+	else
+		return false;
 }
